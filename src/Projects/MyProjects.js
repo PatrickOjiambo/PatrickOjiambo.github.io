@@ -1,7 +1,7 @@
 const myProjects = [
   {
     key: 1,
-    title: 'BlockChain based Online bookstore',
+    title: 'Web3 Online bookstore',
     link: "https://athena-five.vercel.app/",
     image: "../images/athena.jpg",
     description:
@@ -18,7 +18,7 @@ const myProjects = [
   },
   {
     key: 3,
-    title: 'Personal Financial Tracker',
+    title: 'Financial Tracker',
     image:"../images/finance.svg",
     link: "https://github.com/PatrickOjiambo/Personal-financial-tracker",
     description:
