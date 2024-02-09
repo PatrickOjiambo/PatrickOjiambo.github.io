@@ -3,16 +3,16 @@ import { ImGithub } from "react-icons/im";
 import React from "react";
 function Header() {
     return (
-        <div className="bg-pPurple flex justify-around items-center text-white w-full h-28 text-xl font-semibold shadow-cusomShadow font-plus-jakarta-sans">
-            <img src="../images/Logo.png" className="h-[2.448rem] w-9" />
+        <div className="bg-pPurple flex fixed top-0 justify-around items-center text-white w-full h-16 md:h-20 md:text-xl font-semibold shadow-cusomShadow font-plus-jakarta-sans">
+            <img src="../images/Logo.png" className="h-6 w-auto md:h-[2.448rem] md:w-9" />
 
             <Link to="/">
-                <p>Home</p>
+                <p className="hover:underline-offset-0">Home</p>
             </Link>
             <Link to="/projects">
-                <p>Projects</p>
+                <p className="hover:underline-offset-0">Projects</p>
             </Link>
-            <a href="https://github.com/PatrickOjiambo" className="p-2 text-3xl hover:text-4xl" target="_blank">
+            <a href="https://github.com/PatrickOjiambo" className="p-2 text-lg md:text-3xl hover:text-4xl" target="_blank">
                 <ImGithub />
             </a>
 

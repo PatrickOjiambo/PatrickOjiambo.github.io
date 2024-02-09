@@ -1,17 +1,17 @@
 import React from "react";
-import HomePage from "./HomePage/HomePage";
 import Projects from "./Projects/Projects";
 import Header from "./HomePage/Header";
+import Body from "./HomePage/Body";
 import {  BrowserRouter, Router, Route, Routes } from "react-router-dom";
 
 
 function App() {
   return (
-    <div>
+    <div className="">
       <BrowserRouter>
       <Header />
       <Routes>
-      <Route path="/" element={<HomePage />} />
+      <Route path="/" element={<Body />} />
       <Route path="/projects" element={<Projects />} />
       </Routes>
      

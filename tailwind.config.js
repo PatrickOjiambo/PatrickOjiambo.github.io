@@ -14,10 +14,8 @@ export default {
         cusomShadow: "0px 6px 22px -3px rgba(0, 0, 0, 0.1)",
       },
       fontFamily: {
-        inter: ["Inter", "sans"],
-        "plus-jakarta-sans": ["Plus Jakarta Sans", "sans"],
-        preahvihear: ["Preahvihear", "sans"],
-        Poppins: ['Poppins', "sans-serif"]
+ roboto: ["Roboto", "sans-serif"],
+        "plus-jakarta-sans": ["Plus Jakarta Sans", "sans-serif"],
       },
 
       backgroundImage: {

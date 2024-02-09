@@ -13,10 +13,10 @@ function Projects() {
         )
     })
     return (
-        <div className="h-screen bg-background bg-[length:30rem_30rem] bg-backGroundColor bg-no-repeat bg-center px-24">
-            <p className="text-3xl font-preahvihear text-white text-center mr-36 py-4">My Projects</p>
-            <p className="text-white font-preahvihear">Click on image to see project code</p>
-            <div className="grid grid-cols-2 gap-4 pt-5">
+        <div className="font-roboto mt-12 flex pt-5 flex-col items-center min-h-screen bg-background bg-[length:30rem_30rem] bg-backGroundColor bg-no-repeat bg-center px-5 md:px-24">
+            <p className="md:text-3xl text-lg  text-white text-center md:mr-36 py-4">My Projects</p>
+            <p className="text-white   pb-1">Click on image to see project code</p>
+            <div className="lg:grid-cols-2 md:gap-4 md:pt-5 grid grid-cols-1 gap-y-3">
                 {project_cards}
             </div>
 
