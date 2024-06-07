@@ -30,6 +30,13 @@ const myProjects = [
     image: "../images/whatsapp.png",
     link: "https://github.com/PatrickOjiambo/Whatsapp-clone",
     description:'I created a whatsApp clone using Flutter and Firebase. The app allows users to send and receive messages, images, and videos. Users can also create groups and chat with multiple people at once. The app also includes a feature that allows users to see if their messages have been read by the recipient. Additionally, the app has a feature that allows users to see if the recipient is typing a message'
+  },
+  {
+    key: 5,
+    title: "Onchain Certificate Verification",
+    image: "../images/certify.jpg",
+    link: "https://github.com/poseidons-navy/Pacify",
+    description: "I developed a blockchain-based certificate verification system using Algorand. The system allows users to verify the authenticity of their certificates by scanning a QR code on the certificate. The system then retrieves the certificate details from the Algorand blockchain and displays them to the user. This system ensures that certificates cannot be forged or tampered with, as all certificate data is stored on the blockchain."
   }
 ];
 export default myProjects;

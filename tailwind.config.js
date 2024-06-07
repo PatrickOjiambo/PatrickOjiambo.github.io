@@ -7,8 +7,10 @@ export default {
       colors: {
         pPurple: "#1A0B2E",
         pBlue: "#7127BA",
-        backGroundColor: "#11071F",
+        backGroundColor: "#741AAC",
         ButtonColor: "#693B93",
+        aqua: "#8AFFFF",
+        bottomColor: "#420075"
       },
       boxShadow: {
         cusomShadow: "0px 6px 22px -3px rgba(0, 0, 0, 0.1)",
