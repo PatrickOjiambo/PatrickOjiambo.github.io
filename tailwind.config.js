@@ -5,7 +5,17 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        syncopate: ['Syncopate', 'sans-serif'],
+        mono: ['JetBrains Mono', 'monospace'],
+      },
+      colors: {
+        obsidian: '#030303',
+        neon: '#ccff00',
+        magenta: '#ff00ff',
+      }
+    },
   },
   plugins: [],
 }
